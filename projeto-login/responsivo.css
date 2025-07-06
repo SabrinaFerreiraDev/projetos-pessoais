@@ -159,7 +159,8 @@ div.campo > input{
   
 /*em outras midias (tablet,pc)*/
 
-@media screen and (min-width:768px) and (max-width:992px) { 
+@media screen and (min-width:768px) and (max-width:992px) {
+    /*tablet*/ 
     #ilogin:focus-within{
         background-color: rgba(255, 255, 255, 0.815);
         border: none;
@@ -206,6 +207,7 @@ div.campo > input{
  
 }
 @media screen and (min-width:992px){
+    /*pc*/
     div.campo > input{
         height: 100%;
         width: calc(100.5% - 60px);
